@@ -3,7 +3,7 @@ var Service = require('node-windows').Service;
   // Create a new service object
   var svc = new Service({
     name:'Modbus server',
-    description: 'The nodejs.org example web server.',
+    description: 'The nodejs.org example web modbus server.',
     script: '.\\index.js',
     nodeOptions: [
       '--harmony',
